@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj": {}
+    "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj": {}
   },
   "projects": {
-    "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj": {
+    "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
+        "projectUniqueName": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
         "projectName": "TD-AdNum",
-        "projectPath": "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
-        "packagesPath": "C:\\Users\\PRWz\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\obj\\",
+        "projectPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
+        "packagesPath": "C:\\Users\\iigluayy\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PRWz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iigluayy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
