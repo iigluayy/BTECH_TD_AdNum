@@ -25,9 +25,9 @@ Partial Class Form1
         Me.tbNum1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.tbNum2 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lbSum = New System.Windows.Forms.Label()
         Me.btSum = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'tbNum1
@@ -60,16 +60,17 @@ Partial Class Form1
         Me.tbNum2.TabIndex = 1
         Me.tbNum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label2
+        'lbSum
         '
-        Me.Label2.BackColor = System.Drawing.Color.Silver
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(12, 285)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(297, 57)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "ผลลัพธ์"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbSum.BackColor = System.Drawing.Color.Gray
+        Me.lbSum.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lbSum.ForeColor = System.Drawing.Color.White
+        Me.lbSum.Location = New System.Drawing.Point(12, 285)
+        Me.lbSum.Name = "lbSum"
+        Me.lbSum.Size = New System.Drawing.Size(297, 57)
+        Me.lbSum.TabIndex = 0
+        Me.lbSum.Text = "ผลลัพธ์"
+        Me.lbSum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btSum
         '
@@ -82,29 +83,30 @@ Partial Class Form1
         Me.btSum.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.btSum.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btReset
         '
-        Me.Button1.BackColor = System.Drawing.Color.IndianRed
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(187, 207)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(122, 63)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Reset"
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btReset.BackColor = System.Drawing.Color.IndianRed
+        Me.btReset.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btReset.ForeColor = System.Drawing.Color.White
+        Me.btReset.Location = New System.Drawing.Point(187, 207)
+        Me.btReset.Name = "btReset"
+        Me.btReset.Size = New System.Drawing.Size(122, 63)
+        Me.btReset.TabIndex = 2
+        Me.btReset.Text = "Reset"
+        Me.btReset.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btReset.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(321, 374)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btReset)
         Me.Controls.Add(Me.btSum)
         Me.Controls.Add(Me.tbNum1)
         Me.Controls.Add(Me.tbNum2)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lbSum)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "โปรแกรมบวกเลข"
@@ -116,7 +118,7 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents tbNum2 As TextBox
     Friend WithEvents tbNum1 As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents lbSum As Label
     Friend WithEvents btSum As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btReset As Button
 End Class

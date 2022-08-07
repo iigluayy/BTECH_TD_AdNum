@@ -1,5 +1,9 @@
 ﻿Public Class Form1
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click, Label2.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click, lbSum.Click
+
+    End Sub
+
+    Private Sub btReset_Click(sender As Object, e As EventArgs) Handles btReset.Click
 
     End Sub
 End Class
