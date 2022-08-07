@@ -33,6 +33,24 @@
     End Sub
 
     Private Sub btEnd_Click(sender As Object, e As EventArgs) Handles btEnd.Click
+        Dim bt_exit As MsgBoxResult
+        tbNum1.Enabled = False
+        tbNum2.Enabled = False
+        lbSum.Enabled = False
+        btReset.Enabled = False
+        btEnd.Enabled = False
 
+        bt_exit = MsgBox("ปิดโปรแกรม ใช่/ไม่ใช่ ?", MsgBoxStyle.YesNo, "ปิดโปรแกรม")
+        If bt_exit = MsgBoxResult.Yes Then
+            MsgBox("จบการทำงาน....", MsgBoxStyle.Question, "ปิดโปรแกรม")
+            Application.Exit()
+        Else
+            bt_exit = MsgBoxResult.No
+            tbNum1.Enabled = False
+            tbNum2.Enabled = True
+            lbSum.Enabled = False
+            btReset.Enabled = True
+            btEnd.Enabled = True
+        End If
     End Sub
 End Class
