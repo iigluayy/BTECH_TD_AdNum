@@ -8,28 +8,20 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GRX\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\iigluayy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GRX\\Desktop\\ป.ตรี\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
+      "projectUniqueName": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
       "projectName": "TD-AdNum",
-      "projectPath": "C:\\Users\\GRX\\Desktop\\ป.ตรี\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
-      "packagesPath": "C:\\Users\\GRX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GRX\\Desktop\\ป.ตรี\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\obj\\",
+      "projectPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
+      "packagesPath": "C:\\Users\\iigluayy\\.nuget\\packages\\",
+      "outputPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\GRX\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\iigluayy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows7.0"
