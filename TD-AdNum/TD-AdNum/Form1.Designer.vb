@@ -28,6 +28,7 @@ Partial Class Form1
         Me.lbSum = New System.Windows.Forms.Label()
         Me.btSum = New System.Windows.Forms.Button()
         Me.btReset = New System.Windows.Forms.Button()
+        Me.btEnd = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'tbNum1
@@ -74,6 +75,7 @@ Partial Class Form1
         '
         'btSum
         '
+        Me.btSum.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btSum.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btSum.Location = New System.Drawing.Point(12, 207)
         Me.btSum.Name = "btSum"
@@ -86,6 +88,7 @@ Partial Class Form1
         'btReset
         '
         Me.btReset.BackColor = System.Drawing.Color.IndianRed
+        Me.btReset.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btReset.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btReset.ForeColor = System.Drawing.Color.White
         Me.btReset.Location = New System.Drawing.Point(187, 207)
@@ -96,12 +99,28 @@ Partial Class Form1
         Me.btReset.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.btReset.UseVisualStyleBackColor = False
         '
+        'btEnd
+        '
+        Me.btEnd.BackColor = System.Drawing.Color.DarkRed
+        Me.btEnd.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btEnd.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btEnd.ForeColor = System.Drawing.Color.White
+        Me.btEnd.Location = New System.Drawing.Point(12, 345)
+        Me.btEnd.Name = "btEnd"
+        Me.btEnd.Size = New System.Drawing.Size(297, 32)
+        Me.btEnd.TabIndex = 3
+        Me.btEnd.Text = "ปิดโปรแกรม"
+        Me.btEnd.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btEnd.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(321, 374)
+        Me.ClientSize = New System.Drawing.Size(321, 387)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.btEnd)
         Me.Controls.Add(Me.btReset)
         Me.Controls.Add(Me.btSum)
         Me.Controls.Add(Me.tbNum1)
@@ -121,4 +140,5 @@ Partial Class Form1
     Friend WithEvents lbSum As Label
     Friend WithEvents btSum As Button
     Friend WithEvents btReset As Button
+    Friend WithEvents btEnd As Button
 End Class

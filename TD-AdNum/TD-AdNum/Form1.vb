@@ -13,6 +13,7 @@
     End Sub
 
     Private Sub btSum_Click(sender As Object, e As EventArgs) Handles btSum.Click
+
         If String.IsNullOrEmpty(tbNum1.Text) Or String.IsNullOrEmpty(tbNum2.Text) Then
             MsgBox("กรุณาใส่ข้อมูล", MsgBoxStyle.Exclamation, "ข้อมูลผิดพลาด")
         Else
@@ -29,5 +30,9 @@
                 MsgBox("กรุณาใส่ข้อมูลเป็นตัวเลขเท่านั้น", MsgBoxStyle.Exclamation, "ข้อมูลผิดพลาด")
             End If 'End Check numeric
         End If
+    End Sub
+
+    Private Sub btEnd_Click(sender As Object, e As EventArgs) Handles btEnd.Click
+
     End Sub
 End Class
