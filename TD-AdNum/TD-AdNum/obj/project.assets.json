@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\iigluayy\\.nuget\\packages\\": {}
+    "C:\\Users\\PRWz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
+      "projectUniqueName": "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
       "projectName": "TD-AdNum",
-      "projectPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
-      "packagesPath": "C:\\Users\\iigluayy\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\obj\\",
+      "projectPath": "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\TD-AdNum.vbproj",
+      "packagesPath": "C:\\Users\\PRWz\\.nuget\\packages\\",
+      "outputPath": "D:\\ProjGit\\BTECH_TD_AdNum\\TD-AdNum\\TD-AdNum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\iigluayy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PRWz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
