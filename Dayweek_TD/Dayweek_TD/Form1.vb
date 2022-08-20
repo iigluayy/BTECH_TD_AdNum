@@ -14,7 +14,7 @@
                 If num > 7 Or num < 1 Then
                     MsgBox("ใส่ข้อมูลตัวเลข 1 2 3 4 5 6 7 เท่านั้น", MsgBoxStyle.Information, "ข้อมูลผิดพลาด")
                     tbDayweek.Focus()
-                    tbDayweek.SelectAll()
+                    tbDayweek.Text = ""
                 Else
 
                     Select Case num
@@ -52,7 +52,7 @@
             Else
                 MsgBox("ใส่ข้อมูลเป็นตัวเลขเท่านั้น", MsgBoxStyle.Information, "ข้อมูลผิดพลาด")
                 tbDayweek.Focus()
-                tbDayweek.SelectAll()
+                tbDayweek.Text = ""
             End If 'End Check numeric data
 
         End If 'Check End blank data
