@@ -18,7 +18,34 @@
                 Else
 
                     Select Case num
-                        'เงื่อนไข case
+                        Case 1
+                            lbOutput.Text = "Sunday"
+                            lbOutput.BackColor = Color.Red
+                            lbOutput.ForeColor = Color.White
+                        Case 2
+                            lbOutput.Text = "Monday"
+                            lbOutput.BackColor = Color.Yellow
+                            lbOutput.ForeColor = Color.DarkSlateBlue
+                        Case 3
+                            lbOutput.Text = "Tuesday"
+                            lbOutput.BackColor = Color.Pink
+                            lbOutput.ForeColor = Color.DarkSlateBlue
+                        Case 4
+                            lbOutput.Text = "Wednesday"
+                            lbOutput.BackColor = Color.Green
+                            lbOutput.ForeColor = Color.White
+                        Case 5
+                            lbOutput.Text = "Thursday"
+                            lbOutput.BackColor = Color.Orange
+                            lbOutput.ForeColor = Color.DarkSlateBlue
+                        Case 6
+                            lbOutput.Text = "Friday"
+                            lbOutput.BackColor = Color.Blue
+                            lbOutput.ForeColor = Color.White
+                        Case 7
+                            lbOutput.Text = "Saturday"
+                            lbOutput.BackColor = Color.Violet
+                            lbOutput.ForeColor = Color.DarkSlateBlue
 
                     End Select
                 End If 'Check Dayweek
