@@ -25,11 +25,11 @@ Partial Class Dayweek
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.lbOutput = New System.Windows.Forms.Label()
+        Me.tbDayweek = New System.Windows.Forms.TextBox()
+        Me.btOK = New System.Windows.Forms.Button()
+        Me.btClear = New System.Windows.Forms.Button()
+        Me.btExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -65,58 +65,58 @@ Partial Class Dayweek
         Me.Label3.Text = "ผลลัพธ์"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label4
+        'lbOutput
         '
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label4.Enabled = False
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(244, 240)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(254, 69)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "."
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lbOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbOutput.Enabled = False
+        Me.lbOutput.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lbOutput.Location = New System.Drawing.Point(244, 240)
+        Me.lbOutput.Name = "lbOutput"
+        Me.lbOutput.Size = New System.Drawing.Size(254, 69)
+        Me.lbOutput.TabIndex = 1
+        Me.lbOutput.Text = "."
+        Me.lbOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextBox1
+        'tbDayweek
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(244, 144)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.PlaceholderText = "ใส่ข้อมูลตัวเลข"
-        Me.TextBox1.Size = New System.Drawing.Size(254, 69)
-        Me.TextBox1.TabIndex = 2
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.tbDayweek.Font = New System.Drawing.Font("Segoe UI", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.tbDayweek.Location = New System.Drawing.Point(244, 144)
+        Me.tbDayweek.Multiline = True
+        Me.tbDayweek.Name = "tbDayweek"
+        Me.tbDayweek.PlaceholderText = "ใส่ข้อมูลตัวเลข"
+        Me.tbDayweek.Size = New System.Drawing.Size(254, 69)
+        Me.tbDayweek.TabIndex = 2
+        Me.tbDayweek.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Button1
+        'btOK
         '
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(12, 323)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(175, 60)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "คำนวณ"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btOK.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btOK.Location = New System.Drawing.Point(12, 323)
+        Me.btOK.Name = "btOK"
+        Me.btOK.Size = New System.Drawing.Size(175, 60)
+        Me.btOK.TabIndex = 3
+        Me.btOK.Text = "คำนวณ"
+        Me.btOK.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btClear
         '
-        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.Location = New System.Drawing.Point(193, 323)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(175, 60)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "เคลียร์"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btClear.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btClear.Location = New System.Drawing.Point(193, 323)
+        Me.btClear.Name = "btClear"
+        Me.btClear.Size = New System.Drawing.Size(175, 60)
+        Me.btClear.TabIndex = 3
+        Me.btClear.Text = "เคลียร์"
+        Me.btClear.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btExit
         '
-        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.Location = New System.Drawing.Point(374, 323)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(124, 60)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "ปิดโปรแกรม"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btExit.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btExit.Location = New System.Drawing.Point(374, 323)
+        Me.btExit.Name = "btExit"
+        Me.btExit.Size = New System.Drawing.Size(124, 60)
+        Me.btExit.TabIndex = 3
+        Me.btExit.Text = "ปิดโปรแกรม"
+        Me.btExit.UseVisualStyleBackColor = True
         '
         'Dayweek
         '
@@ -124,11 +124,11 @@ Partial Class Dayweek
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(521, 405)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.btExit)
+        Me.Controls.Add(Me.btClear)
+        Me.Controls.Add(Me.btOK)
+        Me.Controls.Add(Me.tbDayweek)
+        Me.Controls.Add(Me.lbOutput)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -142,9 +142,9 @@ Partial Class Dayweek
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents lbOutput As Label
+    Friend WithEvents tbDayweek As TextBox
+    Friend WithEvents btOK As Button
+    Friend WithEvents btClear As Button
+    Friend WithEvents btExit As Button
 End Class
