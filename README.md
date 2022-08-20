@@ -33,36 +33,36 @@
     <td>สร้างปุ่มเคลียร์</td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>KENG2002</td>
+    <td>สร้างปุ่มปิดโปรแกรม</td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>Akkarawat Buasri</td>
+    <td>สร้างปุ่มคำนวณ</td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>Yotsawat</td>
+    <td>ในปุ่มคำนวน ฟังก์ชั่นเช็คค่าว่าง </td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>keinsaza78</td>
+    <td>ในปุ่มคำนวน ฟังก์ชั่นเช็คค่าให้ใส่แค่ตัวเลข</td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>ThituwutJu</td>
+    <td>ในปุ่มคำนวน ฟังก์ชั่นเช็คตัวเลข 1-7</td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>MangkornP</td>
+    <td>ในปุ่มคำนวน ฟังก์ชั่น เงื่อนไขแสดงข้อความบน output</td>
   </tr>
   <tr>
-    <td>Phatcharaphon Detthet</td>
-    <td>สร้างปุ่มเคลียร์</td>
+    <td>chichoin</td>
+    <td>ตกแต่ง ลงสีหน้าฟอร์ม</td>
   </tr>
 </table>
 
 
 
-#Trello
+# Trello
 https://trello.com/invite/b/bZo5VUJR/01e4f66efd6332c8caddc2a55ae04f3f/thanakorndayweek
