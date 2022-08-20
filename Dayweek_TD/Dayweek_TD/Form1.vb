@@ -5,7 +5,9 @@
 
     Private Sub btOK_Click(sender As Object, e As EventArgs) Handles btOK.Click
         Dim num As Integer
-        If 'เช็คค่าว่าง
+        If tbDayweek.Text = "" Then
+            MsgBox("ใส่ข้อมูลตัวเลขก่อน", MsgBoxStyle.Information, "ข้อมูลผิดพลาด")
+            tbDayweek.Focus()
         Else
             If 'เช็คค่าตัวเลข
                 If 'เช็คเลข 1-7
