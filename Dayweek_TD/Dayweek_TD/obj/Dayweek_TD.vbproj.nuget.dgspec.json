@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj": {}
+    "C:\\Users\\ASUS\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj": {}
   },
   "projects": {
-    "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj",
         "projectName": "Dayweek_TD",
-        "projectPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj",
-        "packagesPath": "C:\\Users\\iigluayy\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\iigluayy\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\Dayweek_TD.vbproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\BTECH_TD_Dayweek\\Dayweek_TD\\Dayweek_TD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\iigluayy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
