@@ -11,7 +11,10 @@
         Else
             If IsNumeric(tbDayweek.Text) Then
                 num = Val(tbDayweek.Text)
-                If 'เช็คเลข 1-7
+                If num > 7 Or num < 1 Then
+                    MsgBox("ใส่ข้อมูลตัวเลข 1 2 3 4 5 6 7 เท่านั้น", MsgBoxStyle.Information, "ข้อมูลผิดพลาด")
+                    tbDayweek.Focus()
+                    tbDayweek.SelectAll()
                 Else
 
                     Select Case num
