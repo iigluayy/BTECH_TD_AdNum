@@ -22,5 +22,16 @@
 9. นายชนาธิป พลเสน       (chichoin)
 
 # หน้าที่
-- MangkornP			        - สร้างปุ่ม Reset
-- ChanaweePhetenard     - สร้างปุ่ม ปิดโปรแกรม
+- Phatcharaphon Detthet - ตั้งชื่อ Nametool
+- ChanaweePhetenard - สร้างปุ่มเคลียร์
+- KENG2002
+- Akkarawat Buasri
+- Yotsawat
+- keinsaza78
+- ThituwutJu
+- MangkornP
+- chichoin
+
+
+#Trello
+https://trello.com/invite/b/bZo5VUJR/01e4f66efd6332c8caddc2a55ae04f3f/thanakorndayweek
