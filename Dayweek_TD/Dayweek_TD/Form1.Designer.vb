@@ -124,6 +124,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(521, 405)
+        Me.ControlBox = False
         Me.Controls.Add(Me.btExit)
         Me.Controls.Add(Me.btClear)
         Me.Controls.Add(Me.btOK)
