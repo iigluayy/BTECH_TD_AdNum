@@ -74,6 +74,7 @@
         tbDayweek.Text = ""
         lbOutput.Text = ""
         tbDayweek.Focus()
-        lbOutput.BackColor = Color.LightGray
+        lbOutput.BackColor = Color.Salmon
+
     End Sub
 End Class
