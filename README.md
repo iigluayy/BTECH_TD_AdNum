@@ -11,8 +11,15 @@
 - เมื่อใส่เลข 7 output จะแสดงข้อความ "Saturday"
   
 # Git collaboration
-1. นายมังกร ปานฟัก      (MangkornP)
-2. นายชนาวีย์ เพ็ชรนารถ   (ChanaweePhetenard)
+1. นายพัชรพล เดชเทศ      (Phatcharaphon Detthet)
+2. นายชนาวีร์ เพ็ชรนารถ     (ChanaweePhetenard)
+3. นายเขมินท์ เข็มอินทร์     (KENG2002)
+4. นายอัคควัตฒ์ บัวศรี      (Akkarawat Buasri)
+5. ยศวรรธน์ สุรินทร์        (Yotsawat)
+6. นายชินวัฒน์ ทศดี        (keinsaza78)
+7. นายฐิติวุฒิ โมจนยรรยง    (ThituwutJu)
+8. นายมังกร ปานฟัก        (MangkornP)
+9. นายชนาธิป พลเสน       (chichoin)
 
 # หน้าที่
 - MangkornP			        - สร้างปุ่ม Reset
