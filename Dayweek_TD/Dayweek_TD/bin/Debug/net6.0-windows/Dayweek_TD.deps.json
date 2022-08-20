@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dayweek_TD/1.0.0": {
+        "runtime": {
+          "Dayweek_TD.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dayweek_TD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

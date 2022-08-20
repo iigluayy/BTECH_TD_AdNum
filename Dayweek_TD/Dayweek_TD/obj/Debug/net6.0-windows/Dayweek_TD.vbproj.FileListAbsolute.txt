@@ -1,0 +1,17 @@
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.vbproj.AssemblyReference.cache
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.vbproj.GenerateResource.cache
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.AssemblyInfo.vb
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.vbproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\bin\Debug\net6.0-windows\Dayweek_TD.exe
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\bin\Debug\net6.0-windows\Dayweek_TD.deps.json
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\bin\Debug\net6.0-windows\Dayweek_TD.runtimeconfig.json
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\bin\Debug\net6.0-windows\Dayweek_TD.dll
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\bin\Debug\net6.0-windows\Dayweek_TD.pdb
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.Form1.resources
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.dll
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\refint\Dayweek_TD.dll
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.pdb
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\Dayweek_TD.genruntimeconfig.cache
+C:\Users\Asus\Documents\GitHub\BTECH_TD_Dayweek\Dayweek_TD\Dayweek_TD\obj\Debug\net6.0-windows\ref\Dayweek_TD.dll

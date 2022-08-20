@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Dayweek
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -118,7 +118,7 @@ Partial Class Dayweek
         Me.btExit.Text = "ปิดโปรแกรม"
         Me.btExit.UseVisualStyleBackColor = True
         '
-        'Dayweek
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -132,7 +132,7 @@ Partial Class Dayweek
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Dayweek"
+        Me.Name = "Form1"
         Me.Text = "Dayweek"
         Me.ResumeLayout(False)
         Me.PerformLayout()
