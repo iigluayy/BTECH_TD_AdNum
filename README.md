@@ -22,6 +22,14 @@
 9. นายชนาธิป พลเสน       (chichoin)
 
 # หน้าที่
+
+<table>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
 - Phatcharaphon Detthet - ตั้งชื่อ Nametool
 - ChanaweePhetenard - สร้างปุ่มเคลียร์
 - KENG2002
