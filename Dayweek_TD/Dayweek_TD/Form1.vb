@@ -9,7 +9,8 @@
             MsgBox("ใส่ข้อมูลตัวเลขก่อน", MsgBoxStyle.Information, "ข้อมูลผิดพลาด")
             tbDayweek.Focus()
         Else
-            If 'เช็คค่าตัวเลข
+            If IsNumeric(tbDayweek.Text) Then
+                num = Val(tbDayweek.Text)
                 If 'เช็คเลข 1-7
                 Else
 
@@ -19,7 +20,9 @@
                     End Select
                 End If 'Check Dayweek
             Else
-                'เช็คค่าตัวเลข
+                MsgBox("ใส่ข้อมูลเป็นตัวเลขเท่านั้น", MsgBoxStyle.Information, "ข้อมูลผิดพลาด")
+                tbDayweek.Focus()
+                tbDayweek.SelectAll()
             End If 'End Check numeric data
 
         End If 'Check End blank data
