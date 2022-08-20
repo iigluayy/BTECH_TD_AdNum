@@ -36,4 +36,11 @@
             tbDayweek.Focus()
         End If
     End Sub
+
+    Private Sub btClear_Click(sender As Object, e As EventArgs) Handles btClear.Click
+        tbDayweek.Text = ""
+        lbOutput.Text = ""
+        tbDayweek.Focus()
+        lbOutput.BackColor = Color.LightGray
+    End Sub
 End Class
